@@ -1,0 +1,41 @@
+.ytlogo {
+    width:10%;
+    margin-left: 1%;
+}
+.ytsearchbar {
+    margin-left: 5%;
+    min-width: 20%;
+    max-width: 40%;
+}
+.ytinput {
+    font-size: 1.35em;
+}
+.xyt {
+    margin-left: 16vw;
+}
+.profileimg {
+    width: 45px;
+}
+.micout {
+    height:45px;
+    width: 45px;
+    background-color: #f0f2f5;
+}
+.micccc {
+    margin: 0 20px 0 20px;
+}
+    .iconr {
+        margin-right: 2.1rem;
+}
+.ntg {
+    width: 35px;
+    height: 35px ;
+}
+.maincol {
+    background-color: #f0f2f5;
+}
+body::before {
+    display: block;
+    content:'';
+    height: 80px;
+}
