@@ -39,3 +39,9 @@ body::before {
     content:'';
     height: 80px;
 }
+.side-nav-wrapper {
+    width: 100%;
+}
+.side-nav-text {
+    font-size: 0.85em;
+}
