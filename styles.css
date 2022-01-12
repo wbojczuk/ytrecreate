@@ -43,9 +43,22 @@ body::before {
     width: 100%;
 }
 .side-nav-text {
-    font-size: 0.85em;
+    font-size: 0.80em;
 }
 .swrapper{
     position: fixed;
     height: 100%;
+    margin-left: 12px;
+    padding: 0;
+    width: 6%
+}
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+    .side-nav-text{
+        font-size: 0.70em;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1130px) {
+    .side-nav-text{
+        font-size: 0.65em;
+    }
 }
