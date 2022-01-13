@@ -1,3 +1,6 @@
+body {
+    background-color: #f0f2f5;
+}
 .ytlogo {
     width:10%;
     margin-left: 1%;
@@ -57,7 +60,6 @@ body::before {
 }
 .tag-carousel{
     position: relative;
-    margin-left:;
 }
 .tag-carousel-wrapper {
     position: relative;
@@ -78,6 +80,60 @@ body::before {
 .tag-btn-wrapper{
 overflow: hidden;
 }
+.card-link{
+    text-decoration: none;
+    color: #000;
+}
+.card-link:hover {
+    color: #000;
+}
+.main-color {
+    background-color:#f0f2f5;
+}
+.thumb-vid-length {
+    position: relative;
+    margin-top: -35px;
+    margin-right: 5px;
+}
+.thumb-vid-length-btn {
+    background-color: rgba(33, 37, 41, 0.8);
+}
+.thumb-vid-title {
+    font-weight: 450;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 60px;
+    line-height: 20px;
+}
+.thumb-profile {
+    width: 50px;
+    position: relative;
+    margin-top: -80px;
+}
+.thumb-text{
+    position: relative;
+    margin-left: 60px;
+    color: #aaa;
+    font-size: 14px;
+    margin-top: -22px;
+}
+.single-line{
+    margin-left: 60px;
+    color: #aaa;
+    font-size: 14px;
+    position: relative;
+    margin-top: -40px;
+}
+.single-line {
+    padding-bottom: 18px;
+}
+.thumb-views span {
+    font-size: 20px;
+}
+.thumb-views{
+    position: relative;
+    margin-top: -5px;
+}
 @media only screen and (min-width: 800px) and (max-width: 1300px) {
     .side-nav-text{
         font-size: 0.70em;
@@ -86,5 +142,10 @@ overflow: hidden;
 @media only screen and (min-width: 800px) and (max-width: 1130px) {
     .side-nav-text{
         font-size: 0.65em;
+    }
+}
+@media only screen and (min-width: 100px) and (max-width: 990px) {
+    .thumb-profile {
+        margin-top: -40px;
     }
 }
