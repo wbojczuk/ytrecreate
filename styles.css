@@ -98,6 +98,7 @@ overflow: hidden;
     position: relative;
     margin-top: -35px;
     margin-right: 5px;
+    pointer-events: none;
 }
 .thumb-vid-length-btn {
     background-color: rgba(33, 37, 41, 0.8);
