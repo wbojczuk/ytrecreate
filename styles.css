@@ -68,6 +68,7 @@ body::before {
     border-top: 2px solid #e0e4eb;
     border-bottom: 2px solid #e0e4eb;
     z-index: 1;
+    margin-top: .2%;
     margin-left: -2.7%;
     margin-right: -5%;
 }
